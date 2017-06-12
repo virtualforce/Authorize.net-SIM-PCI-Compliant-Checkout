@@ -24,5 +24,5 @@ Second you just need to setup the form that has some fingerprint information to 
 	<INPUT TYPE=HIDDEN NAME="x_description" id='pay-desc'>
 	<INPUT TYPE=HIDDEN NAME="x_st_dt" id='st-dt'>
 
-	<%= sim.submit (t "patient_plans.submit"), class:"sim-submit sim-btns"%>
+	<%=sim.submit (t "patient_plans.submit"), class:"sim-submit sim-btns"%>
 	<% end %>
